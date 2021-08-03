@@ -14,10 +14,10 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 
 data class ListData (
 
-	@SerializedName("id") val id : Int,
-	@SerializedName("author") val author : String,
-	@SerializedName("width") val width : Int,
-	@SerializedName("height") val height : Int,
-	@SerializedName("url") val url : String,
-	@SerializedName("download_url") val download_url : String
+		@SerializedName("id") val id : Int,
+		@SerializedName("author") val author : String,
+		@SerializedName("width") val width : Int,
+		@SerializedName("height") val height : Int,
+		@SerializedName("url") val url : String,
+		@SerializedName("download_url") val download_url : String
 )
